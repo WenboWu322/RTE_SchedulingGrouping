@@ -2,8 +2,8 @@ import pandas as pd
 import random
 
 # define caissons nb of caissons
-N = 100
-T = 180
+N = 10
+T = 30
 caissons = caissons = [i for i in range(N)]  # Index starts from 0
 
 # define degradation rate
