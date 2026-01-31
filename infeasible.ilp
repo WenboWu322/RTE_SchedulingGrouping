@@ -1,0 +1,19 @@
+\ Model maintenance_DAILY_ORIGINAL_PHYSICS_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R0: P[0,0] = 3.395433771552786
+ R3010: P[0,1] - P_end[0,1] - 0.0168697721575015 z[0,0]
+   = -0.0253046582362522
+ R4010: - 15.64465534258193 P[0,0] + 15.64465534258193 P[0,1] + Leak[0,0]
+   = 0
+ qc0: - 3.5 x_GR[0,1] - 3.5 x_RE[0,1] - P[0,1] + P_end[0,1] + [
+   x_GR[0,1] * P[0,1] + x_RE[0,1] * P[0,1] ] = 0
+Bounds
+ P[0,0] free
+ P[0,1] free
+ P_end[0,1] free
+Binaries
+ x_GR[0,1] x_RE[0,1] z[0,0]
+End
