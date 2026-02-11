@@ -2,8 +2,8 @@ import pandas as pd
 import random
 
 # define caissons nb of caissons
-N = 10
-T = 30
+N = 100
+T = 360
 caissons = caissons = [i for i in range(N)]  # Index starts from 0
 
 # define degradation rate
@@ -18,6 +18,7 @@ initial_p_values = {caisson: round(random.uniform(3.2, 3.5), 2) for caisson in c
 # generate a random number of 'x' before 'y' for each CAISSON (from 3 to 10) 3-4 before
 random.seed(42)  # Set seed for reproducibility
 x_counts = {caisson: random.randint(6, 7) for caisson in caissons}
+# x_counts = {caisson: random.randint(6, 10) for caisson in caissons}
 
 def generate_tasks(initial_p_values, T, alpha_values, x_counts):
     # create a dataframe to store the maintenance plan
