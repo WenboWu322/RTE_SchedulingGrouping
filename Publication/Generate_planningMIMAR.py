@@ -2,16 +2,16 @@ import pandas as pd
 import random
 
 # define caissons nb of caissons
-N = 200
-T = 180
+N = 10
+T = 30
 caissons = caissons = [i for i in range(N)]  # Index starts from 0
 
-# define degradation rate
+# define degradation rate 
 random.seed(42)
 # alpha_values = {caisson: round(random.uniform(0.03, 0.08), 6) for caisson in caissons}
 alpha_values = {caisson: round(random.uniform(0.01, 0.05), 6) for caisson in caissons}
 
-
+random.seed(42) # Set seed for reproducibility
 # generate random initial pressure values
 initial_p_values = {caisson: round(random.uniform(3.2, 3.5), 2) for caisson in caissons}
 
@@ -63,5 +63,5 @@ def generate_tasks(initial_p_values, T, alpha_values, x_counts):
 
 planning = generate_tasks(initial_p_values, T, alpha_values, x_counts)
 print(planning)
-planning.to_csv("maintenance_plan.csv", index=False)
+planning.to_csv("Publication/maintenance_plan.csv", index=False)
 print("CSV file has been saved successfully")
