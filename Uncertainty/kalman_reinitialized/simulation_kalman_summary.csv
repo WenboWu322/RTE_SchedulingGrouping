@@ -1,0 +1,6 @@
+metric,value
+true_repair_times,"[29, 65, 112, 146, 171]"
+kf_repair_times,"[29, 170, 171]"
+num_true_repairs,5
+num_kf_repairs,3
+num_segments,6
