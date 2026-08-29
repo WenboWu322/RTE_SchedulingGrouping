@@ -1,2 +1,2 @@
-﻿total_leak_kg,total_equipment,repaired_equipment_count,total_repair_actions,triggered_equipment_count
-17865.02665,2842,681,681.0,681
+﻿total_leak_kg,total_equipment,repaired_equipment_count,total_repair_actions,triggered_equipment_count,triggered_by_leak,triggered_by_interval
+17865.02665,2842,681,681.0,681,621,60
