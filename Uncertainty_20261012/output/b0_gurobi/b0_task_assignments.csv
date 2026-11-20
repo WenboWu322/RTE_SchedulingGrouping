@@ -1,0 +1,2 @@
+﻿task_id,pmec_id,cycle_id,decision_date,scheduled_date,h,nominal_gr_date,earliest_date,pressure_mean,pressure_state_std,endpoint_risk,safe_lower_bound,epsilon,shift_days,shift_cost
+5001303342_cycle_2,5001303342,2,2021-11-13,2021-11-15,2,2021-11-15,2021-11-13,3.199813971364431,0.0054666976073751,8.554916389372058e-293,3.190822053977493,0.05,0,0.0

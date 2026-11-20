@@ -1,0 +1,2 @@
+sigma_P_process_true,sigma_alpha_process_true,sigma_meas,R,sigma_P_process_filter_best,sigma_alpha_process_filter_best,pressure_rmse,alpha_rmse,pressure_mae,alpha_mae
+200.0,50.0,1200.0,1440000.0,158.48931924611142,44.12040613345333,641.9107143985298,843.5930165453789,508.7074839969035,192.98933556054862

@@ -1,0 +1,5 @@
+﻿pmec_id,evaluation_reason,n_predictions
+5001303342,no_target_record,45
+5001303342,target_in_different_cycle,45
+5001303342,target_is_gr_day,20
+5001303342,valid,1370

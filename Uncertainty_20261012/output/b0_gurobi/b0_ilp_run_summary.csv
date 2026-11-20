@@ -1,0 +1,2 @@
+﻿status,solver,decision_date,stage1_status_code,stage2_status_code,stage1_runtime_seconds,stage2_runtime_seconds,n_tasks,n_visits,daily_capacity,advance_penalty,delay_penalty,total_shift_cost,comparison_baseline,visit_reduction_vs_separate_tasks
+LEXICOGRAPHIC_OPTIMAL,Gurobi,2021-11-13,2,2,0.003535032272338867,0.003607034683227539,1,1,5,1.0,2.0,0.0,one_separate_visit_per_task,0.0

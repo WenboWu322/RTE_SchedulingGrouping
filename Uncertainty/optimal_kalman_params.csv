@@ -1,0 +1,2 @@
+sigma_P_process_optimal,sigma_alpha_process_optimal,alpha_rmse_optimal,pressure_rmse_optimal,R_fixed,Q_trace,pressure_final_error_selected_alpha_RMSE,alpha_final_error_selected_alpha_RMSE,sigma_P_process_visual,sigma_alpha_process_visual
+100.0,100.0,834.4064479685944,582.4753515262086,1440000.0,1010000.0,-307.82117569621187,30.719703320768616,50.0,1.0
